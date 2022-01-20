@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -10,8 +12,34 @@ background: linear-gradient(150deg, rgba(170,46,38,1) 0%, rgba(0,0,0,1) 41%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26",endColorstr="#000000",GradientType=1);
 height: 600px;
 }
-.titre{
-    color: white;
-    text-align: center;
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.titre{
+    margin:0;
+    padding-top: 30px;
+    color: white;
+}
+
+.paragabout{
+    color: white;
+}
+
+.ariane{
+    color: white;
+}
+.arianered{
+    color: red;
+
+}
+
+.cyber {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
