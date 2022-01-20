@@ -60,3 +60,7 @@ nav .menu-center a:hover {
 nav .menu-right {
     margin-left: auto;
 }
+
+section.global{
+    background-color: rgb(32, 32, 32);
+}
