@@ -1,35 +1,42 @@
-.sectionun{
-background: rgb(170,46,38);
-background: -moz-linear-gradient(150deg, rgba(170,46,38,1) 0%, rgb(32, 32, 32) 41%);
-background: -webkit-linear-gradient(150deg, rgba(170,46,38,1) 0%, rgb(32, 32, 32) 41%);
-background: linear-gradient(150deg, rgba(170,46,38,1) 0%, rgb(32, 32, 32) 41%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26",endColorstr="#202020",GradientType=1);
-height: 600px;
+.sectionun {
+    background: rgb(170, 46, 38);
+    background: -moz-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+    background: -webkit-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+    background: linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26", endColorstr="#202020", GradientType=1);
+    height: 600px;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.titre{
-    margin:0;
+.titre {
+    margin: 0;
     padding-top: 30px;
     color: white;
 }
 
-.paragabout{
+.paragabout {
     color: white;
 }
 
-.ariane{
+.ariane {
     color: white;
 }
-.arianered{
+
+.arianered {
     color: red;
 
 }
+
+.titre_cyber{
+    font-size: 50px;
+}
+
 .cyber {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -37,46 +44,71 @@ height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:15px;
-    padding-left:50px;
+    border-radius: 15px;
+    padding-left: 50px;
     padding-right: 50px;
     margin-left: 250px;
     margin-right: 250px;
 }
 
-.cyberright{
+.cyberright {
     width: 50%;
 }
-.cyberleft{
+
+.cyberleft {
     padding-top: 70px;
     width: 50%;
 }
-.englobe{
+
+.englobe {
     display: flex;
 
 }
-.liste{
+
+.liste {
     padding: 0;
 }
 
-.fa-shield-virus:before{
+.fa-shield-virus:before {
     color: red;
 }
 
-li{
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li {
     color: rgb(153, 153, 153);
     font-family: poppins;
+    font-size: 17px;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
 }
-.order{
- background-color: red;
+
+.order {
+    margin-right: 10px;
+    background-color: red;
+    border: solird red 1px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.free{
- background-color: transparent;
- border-color: white;
- border-radius: 5px;
+.free {
+    background-color: transparent;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
