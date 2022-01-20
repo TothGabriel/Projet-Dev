@@ -62,3 +62,58 @@ nav .menu-right {
 }
 
 
+<<<<<<< HEAD
+=======
+/**Paramétrage**/
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Fjalla One;
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    font-family: Fjalla One;
+    font-size: 28px;
+    color: white;
+}
+
+h3 {
+    font-family: Fjalla One;
+    font-size: 27px;
+    color: white;
+}
+
+h4 {
+    font-family: Fjalla One;
+    font-size: 26px;
+    color: white;
+}
+
+h5 {
+    font-family: Fjalla One;
+    font-size: 25px;
+    color: white;
+}
+
+h6 {
+    font-family: Fjalla One;
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 15px;
+    color: white;
+}
+>>>>>>> b0f8174dbc90edd4e36f96610cc8606834d022dc
