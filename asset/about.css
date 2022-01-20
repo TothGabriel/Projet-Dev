@@ -67,3 +67,16 @@ li{
     color: rgb(153, 153, 153);
     font-family: poppins;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.order{
+ background-color: red;
+}
+
+.free{
+ background-color: transparent;
+ border-color: white;
+ border-radius: 5px;
+}
