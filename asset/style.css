@@ -72,7 +72,7 @@ a {
     font-family: poppins;
 }
 
-a
+
 /**--------------NavBar-------------------**/
 
 nav {
@@ -130,6 +130,6 @@ section.global {
     background-color: rgb(32, 32, 32);
 }
 
-ul{
+ul {
     list-style-type: none;
 }
