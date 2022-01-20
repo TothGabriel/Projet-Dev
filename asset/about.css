@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sectionun{
+background: rgb(170,46,38);
+background: -moz-linear-gradient(150deg, rgba(170,46,38,1) 0%, rgba(0,0,0,1) 41%);
+background: -webkit-linear-gradient(150deg, rgba(170,46,38,1) 0%, rgba(0,0,0,1) 41%);
+background: linear-gradient(150deg, rgba(170,46,38,1) 0%, rgba(0,0,0,1) 41%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26",endColorstr="#000000",GradientType=1);
+height: 600px;
+}
+.titre{
+    color: white;
+    text-align: center;
+}
+
