@@ -138,22 +138,23 @@ li {
 
 .englobecarte{
     display: flex;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 .card{
     padding: 30px;
-    margin-left:20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 15px;
 }
 .cartewhy{
     margin-top: 30px;
 }
 
-.fa-user-secret{
+.fa-user-secret, .iconserveur, .iconindus{
     font-size: 30px;
-    color: white;
+    color: rgb(155, 155, 155);
+    fill: rgb(155, 155, 155);
 }
 
 .iconcarte{
@@ -164,4 +165,12 @@ li {
     width: 30px;
     padding:10px;
     border-radius: 5px;
+}
+
+.titrecarte{
+        font-family: Fjalla One;
+        font-size: 25px;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 20px;
 }
