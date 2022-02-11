@@ -208,17 +208,33 @@ li {
     padding: 15px 10px 15px 10px;
 }
 
+
 .carte_projet{
     display: flex;
     flex-direction: row;
-    padding-right: 350px;
-    padding-left: 350px;
+    margin-top: 50px;
+    padding-left: 270px;
+    padding-right: 200px;
 }
 
 .card_projet{
     background-color: rgb(25, 25, 25);
-    padding: 30px;
-    margin-left: 50px;
+    padding: 30px 50px 30px 50px;
+    margin-left: 30px;
     margin-right: 50px;
     border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.titre_carte_projet{
+    margin-top:10px;
+    margin-bottom: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.count{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
