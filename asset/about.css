@@ -135,10 +135,6 @@ li {
     margin-bottom: 20px;
 }
 
-.card {
-    background-color: rgb(25, 25, 25);
-}
-
 .englobecarte {
     display: flex;
     padding-right: 200px;
@@ -146,6 +142,7 @@ li {
 }
 
 .card {
+    background-color: rgb(25, 25, 25);
     padding: 30px;
     margin-left: 50px;
     margin-right: 50px;
@@ -169,9 +166,19 @@ li {
     background-color: rgb(32, 32, 32);
     justify-content: center;
     align-items: center;
-    width: 30px;
+    width: 45px;
     padding: 10px;
     border-radius: 5px;
+}
+
+.iconcarte:hover {
+    background-color: rgb(170, 46, 38);
+    transition: .2s;
+}
+
+.imgcarte:hover{
+    filter: brightness(200%) contrast(100%);
+    transition: .2s;
 }
 
 .titrecarte {
@@ -189,4 +196,29 @@ li {
 
 .cyberred {
     color: rgb(170, 46, 38);
+}
+.btn_adv{
+    margin-top: 40px;
+}
+
+.contact{
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 15px 10px 15px 10px;
+}
+
+.carte_projet{
+    display: flex;
+    flex-direction: row;
+    padding-right: 350px;
+    padding-left: 350px;
+}
+
+.card_projet{
+    background-color: rgb(25, 25, 25);
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
 }
