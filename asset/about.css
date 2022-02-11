@@ -283,7 +283,7 @@ li {
 }
 
 .descclient {
-    color: rgb(145, 145, 145);
+    color: #919191;
 }
 
 .clientparam {
@@ -338,11 +338,54 @@ li {
 }
 
 .newsletter{
-    margin-left: 300px;
-    margin-right: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 55%;
     text-align: center;
     background-color: transparent;
-    background-image: linear-gradient(140deg,#f43334 0%,#131313 38%);
-    padding: 50px;
+    background-image: linear-gradient(140deg,#f43334 0%,#131313 55%);
+    padding: 5px 50px 50px 50px;
 }
 
+.titrenewsletter{
+    margin-bottom: 5px;
+}
+
+.paragnewsletter{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.formulairenewsletter{
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.formnewsletter{
+    width: 120%;
+}
+
+.inputmail{
+    border-color: transparent;
+    font-size: 15px;
+    margin-left: -70px;
+    margin-right: 100px;
+    font-family: Poppins;
+}
+
+.inputbtn{
+    border-color: red;
+    background-color: red;
+    color: white;
+    width: 25%;
+    padding: 20px 15px 20px 15px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: Poppins;    
+    font-size: 15px;
+}
