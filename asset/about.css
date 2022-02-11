@@ -176,7 +176,7 @@ li {
     transition: .2s;
 }
 
-.imgcarte:hover{
+.imgcarte:hover {
     filter: brightness(200%) contrast(100%);
     transition: .2s;
 }
@@ -195,13 +195,14 @@ li {
 }
 
 .cyberred {
-    color: rgb(170, 46, 38);
+    color: #aa2e26;
 }
-.btn_adv{
+
+.btn_adv {
     margin-top: 40px;
 }
 
-.contact{
+.contact {
     color: white;
     border: solid 1px white;
     border-radius: 5px;
@@ -209,7 +210,7 @@ li {
 }
 
 
-.carte_projet{
+.carte_projet {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -217,7 +218,7 @@ li {
     padding-right: 200px;
 }
 
-.card_projet{
+.card_projet {
     background-color: rgb(25, 25, 25);
     padding: 30px 50px 30px 50px;
     margin-left: 30px;
@@ -227,84 +228,121 @@ li {
     height: 200px;
 }
 
-.titre_carte_projet{
-    margin-top:10px;
+.titre_carte_projet {
+    margin-top: 10px;
     margin-bottom: 20px;
     color: rgb(100, 100, 100);
     font-size: 23px;
 }
 
-.count{
+.count {
     font-size: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.titre_temoignage{
+.titre_temoignage {
     margin-top: 50px;
     margin-bottom: 10px;
     text-align: center;
     align-content: center;
 }
-.temoignage{
+
+.temoignage {
     padding-bottom: 70px;
 }
 
-.client_temoi{
+.client_temoi {
     margin-bottom: 10px;
 }
 
-.soustitre_tem{ 
+.soustitre_tem {
     color: rgb(145, 145, 145);
 }
 
-.carteclient{
+.carteclient {
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 270px;
+    margin-right: 270px;
     margin-top: 70px;
 }
 
-.clientdroit{
+.clientdroit {
     background-color: rgb(25, 25, 25);
     margin-right: 100px;
     padding: 20px 50px 20px 50px;
     border-radius: 10px;
 }
 
-.clientgauche{
+.clientgauche {
     background-color: rgb(25, 25, 25);
     margin-left: 100px;
     padding: 20px 50px 20px 50px;
     border-radius: 10px;
 }
 
-.descclient{
+.descclient {
     color: rgb(145, 145, 145);
 }
 
-.clientparam{
+.clientparam {
     display: flex;
 
 }
-.photoclient{
+
+.photoclient {
     border-radius: 50%;
 }
-.clientinfo{
+
+.clientinfo {
     margin-top: -45px;
     margin-left: 30px;
     margin-bottom: 30px;
 }
-.clientnom{
+
+.clientnom {
     margin-bottom: -15px;
 }
 
-.noteclient{
+.clientposte {
+    color: #aa2e26;
+}
+
+.noteclient {
     display: flex;
 }
-.notesvg{
+
+.notesvg {
     margin-top: -10px;
     width: 25px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(106deg) brightness(102%) contrast(102%);
 }
+
+.toustem {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.temclient {
+    color: white;
+    border: solid 1px rgb(145, 145, 145);
+    border-radius: 5px;
+    padding: 15px 10px 15px 10px;
+}
+
+.temclient:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+.newsletter{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    background-color: transparent;
+    background-image: linear-gradient(140deg,#f43334 0%,#131313 38%);
+    padding: 50px;
+}
+
