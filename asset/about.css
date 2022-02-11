@@ -37,7 +37,7 @@
 
 }
 
-.titre_cyber{
+.titre_cyber {
     font-size: 50px;
 }
 
@@ -77,7 +77,7 @@
     color: red;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -117,60 +117,76 @@ li {
     padding-bottom: 10px;
 }
 
-.why{
+.why {
     margin-top: 40px;
 }
 
-.pourquoi{
+.pourquoi {
     text-align: center;
 }
-.paragwhy{
-    margin:0;
+
+.paragwhy {
+    margin: 0;
     padding: 0;
 }
-.titrewhy{
+
+.titrewhy {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .card {
-    background-color:rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
 }
 
-.englobecarte{
+.englobecarte {
     display: flex;
     padding-right: 200px;
     padding-left: 200px;
 }
-.card{
+
+.card {
     padding: 30px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 15px;
 }
-.cartewhy{
+
+.cartewhy {
     margin-top: 30px;
 }
 
-.fa-user-secret, .iconserveur, .iconindus{
+.fa-user-secret,
+.iconserveur,
+.iconindus {
     font-size: 30px;
     color: rgb(155, 155, 155);
     fill: rgb(155, 155, 155);
 }
 
-.iconcarte{
+.iconcarte {
     display: flex;
     background-color: rgb(32, 32, 32);
     justify-content: center;
     align-items: center;
     width: 30px;
-    padding:10px;
+    padding: 10px;
     border-radius: 5px;
 }
 
-.titrecarte{
-        font-family: Fjalla One;
-        font-size: 25px;
-        color: white;
-        margin-top: 15px;
-        margin-bottom: 20px;
+.titrecarte {
+    font-family: Fjalla One;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.advanced {
+    display: flex;
+    margin: 100px 250px 0 250px;
+}
+
+.cyberred {
+    color: rgb(170, 46, 38);
 }
