@@ -231,10 +231,14 @@ li {
 
 .rowun {
     display: flex;
+    margin:auto;
+    margin-right: -5px;
 }
 
 .rowdeux {
     display: flex;
+    margin:auto;    
+    margin-left: -5px;
 }
 
 
@@ -502,6 +506,11 @@ li {
         font-size: 12px;
     }
 
+    .imgadvanced{
+        width: 80%;
+        padding-top: 40px;
+    }
+
     .contact {
         font-size: 10px;
     }
@@ -676,6 +685,10 @@ li {
         padding-top: 50px;
     }
 
+    .imgadvanced{
+        padding-top: 15px;
+    }
+
     .titre_cyber {
         font-size: 12px;
     }
@@ -721,7 +734,7 @@ li {
     }
 
     .card_projet {
-        padding: 10px 16px 15px 10px;
+        padding: 10px 10px 15px 10px;
         margin-left: 75px;
         margin-right: 120px;
         margin-bottom: 10px;

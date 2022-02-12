@@ -126,7 +126,7 @@ nav .menu-right {
 
 /**Corp de page **/
 
-section.global {
+div.global {
     background-color: rgb(32, 32, 32);
     padding-bottom: 30px;
 }
