@@ -61,7 +61,7 @@
     width: 50%;
 }
 
-.imageabout{
+.imageabout {
     width: 100%;
     height: auto;
 }
@@ -261,9 +261,9 @@ li {
 .carteclient {
     display: flex;
     flex-direction: row;
-    margin-left: 270px;
-    margin-right: 270px;
-    margin-top: 70px;
+    padding-top: 70px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .clientdroit {
@@ -390,98 +390,196 @@ li {
 
 /**Version mobile**/
 
-@media (max-width:768px){
-    .sectionun{
+@media (max-width:768px) {
+    .sectionun {
         height: 400px;
     }
 
-    .titre{
+    .titre {
         font-size: 30px;
     }
-    .paragabout{
-        font-size:15px;
-    }
-    .ariane{
-        font-size: 14px;
-    }
 
-    .cyber{
-        width: 60%;
-    }
-    .titre_cyber{
-        font-size:22px;
-    }
-
-    .cyberleft{
-        padding-top: 0px;
-    }
-
-    .cyberright{
-        margin-left: 25px;
-    }
-    .imageabout{
-        padding-top: 30px;
-    }
-
-    .paragcyber{
-        font-size: 12px;
-    }
-
-    li{
-        font-size: 12px;
-    }
-
-    .order{
-        font-size: 11px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .free{
-        font-size: 11px;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .titrewhy{
-        font-size: 25px;
-    }
-
-    .paragwhy{
+    .paragabout {
         font-size: 15px;
     }
 
-    .englobecarte{
-        width: 80%;
+    .ariane {
+        font-size: 14px;
     }
-    .card{
-        margin: 0 20px 0 20px;
+
+    .cyber {
+        width: 60%;
+    }
+
+    .titre_cyber {
+        font-size: 22px;
+    }
+
+    .cyberleft {
+        padding-top: 0px;
+    }
+
+    .btn{
+        padding-bottom: 20px;
+    }
+
+    .cyberright {
+        margin-left: 25px;
+    }
+
+    .imageabout {
+        padding-top: 45px;
+    }
+
+    .paragcyber {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    .order {
+        font-size: 11px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .free {
+        font-size: 11px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .titrewhy {
+        font-size: 25px;
+    }
+
+    .paragwhy {
+        font-size: 15px;
+    }
+
+    .englobecarte {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 15px 0 15px;
         padding: 15px;
     }
-    .iconcarte{
+
+    .iconcarte {
         width: 25px;
         height: 25px;
         justify-content: start;
     }
 
-    .imgcarte{
+    .imgcarte {
         width: 25px;
     }
-    .titrecarte{
+
+    .titrecarte {
         font-size: 16px;
         margin-bottom: -5px;
     }
-    .paragcarte{
+
+    .paragcarte {
         font-size: 12px;
     }
 
-    .lienwhy{
+    .lienwhy {
         font-size: 12px;
     }
 
-    .contact{
+    .contact {
         font-size: 10px;
     }
-    .advanced{
+
+    .advanced {
         margin-bottom: 80px;
     }
 
+    .card_projet {
+        padding: 15px 0px 15px 15px;
+        margin-left: 15px;
+        margin-right: 0px;
+        width: 20%;
+    }
+
+    .count {
+        font-size: 25px;
+    }
+
+    .carte_projet {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .titre_carte_projet {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .client_temoi {
+        font-size: 25px;
+    }
+
+    .temoignage {
+        padding-top: 30px;
+    }
+
+    .soustitre_tem{
+        margin: 5px 50px 5px 50px;
+    }
+
+    .clientgauche {
+        margin-right: 0px;
+        padding: 0px 15px 0px 15px;
+
+    }
+
+    .clientdroit {
+        margin-right: -65px;
+        padding: 0px 15px 0px 15px;
+
+    }
+
+    .descclient{
+        font-size: 12px;
+    }
+
+    .photoclient{
+        width: 60px;
+    }
+
+    .clientnom{
+        font-size: 18px;
+    }
+
+    .clientposte{
+        padding-top: 10px;
+        font-size: 11px;
+    }
+
+    .notesvg{
+        margin-top: -7px;
+        width: 17px;
+
+        }
+
+    .temclient{
+        font-size: 13px;
+    }
+
+    .formulairenewsletter{
+        width: 95%;
+    }
+
+    .inputmail{
+        margin-left: -50px;
+        margin-right: 35px;
+    }
+
+    .inputbtn{
+        padding: 10px 15px 10px 15px;
+    }
 }
