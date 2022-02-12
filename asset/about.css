@@ -8,11 +8,13 @@
 }
 
 .about {
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 .titre {
@@ -51,12 +53,17 @@
     border-radius: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: 0 auto;
+    width: 65%;
 }
 
 .cyberright {
     width: 50%;
+}
+
+.imageabout{
+    width: 100%;
+    height: auto;
 }
 
 .cyberleft {
@@ -97,7 +104,6 @@ li {
 .order {
     margin-right: 10px;
     background-color: red;
-    border: solird red 1px;
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -137,8 +143,8 @@ li {
 
 .englobecarte {
     display: flex;
-    padding-right: 200px;
-    padding-left: 200px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .card {
@@ -151,14 +157,6 @@ li {
 
 .cartewhy {
     margin-top: 30px;
-}
-
-.fa-user-secret,
-.iconserveur,
-.iconindus {
-    font-size: 30px;
-    color: rgb(155, 155, 155);
-    fill: rgb(155, 155, 155);
 }
 
 .iconcarte {
@@ -191,7 +189,9 @@ li {
 
 .advanced {
     display: flex;
-    margin: 100px 250px 0 250px;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 70px;
 }
 
 .cyberred {
@@ -213,9 +213,8 @@ li {
 .carte_projet {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    padding-left: 270px;
-    padding-right: 200px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .card_projet {
@@ -224,8 +223,7 @@ li {
     margin-left: 30px;
     margin-right: 50px;
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 75%;
 }
 
 .titre_carte_projet {
@@ -331,32 +329,32 @@ li {
     padding: 15px 10px 15px 10px;
 }
 
-.temclient:hover{
+.temclient:hover {
     background-color: white;
     color: black;
     transition: .3s;
 }
 
-.newsletter{
+.newsletter {
     border-radius: 10px;
     margin: 0 auto;
     width: 55%;
     text-align: center;
     background-color: transparent;
-    background-image: linear-gradient(140deg,#f43334 0%,#131313 55%);
+    background-image: linear-gradient(140deg, #f43334 0%, #131313 55%);
     padding: 5px 50px 50px 50px;
 }
 
-.titrenewsletter{
+.titrenewsletter {
     margin-bottom: 5px;
 }
 
-.paragnewsletter{
+.paragnewsletter {
     margin-bottom: 30px;
     color: white;
 }
 
-.formulairenewsletter{
+.formulairenewsletter {
     margin: 0 auto;
     align-items: center;
     background-color: white;
@@ -366,11 +364,11 @@ li {
     border-radius: 10px;
 }
 
-.formnewsletter{
+.formnewsletter {
     width: 120%;
 }
 
-.inputmail{
+.inputmail {
     border-color: transparent;
     font-size: 15px;
     margin-left: -70px;
@@ -378,7 +376,7 @@ li {
     font-family: Poppins;
 }
 
-.inputbtn{
+.inputbtn {
     border-color: red;
     background-color: red;
     color: white;
@@ -386,6 +384,104 @@ li {
     padding: 20px 15px 20px 15px;
     border-style: none;
     border-radius: 5px;
-    font-family: Poppins;    
+    font-family: Poppins;
     font-size: 15px;
+}
+
+/**Version mobile**/
+
+@media (max-width:768px){
+    .sectionun{
+        height: 400px;
+    }
+
+    .titre{
+        font-size: 30px;
+    }
+    .paragabout{
+        font-size:15px;
+    }
+    .ariane{
+        font-size: 14px;
+    }
+
+    .cyber{
+        width: 60%;
+    }
+    .titre_cyber{
+        font-size:22px;
+    }
+
+    .cyberleft{
+        padding-top: 0px;
+    }
+
+    .cyberright{
+        margin-left: 25px;
+    }
+    .imageabout{
+        padding-top: 30px;
+    }
+
+    .paragcyber{
+        font-size: 12px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+    .order{
+        font-size: 11px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .free{
+        font-size: 11px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .titrewhy{
+        font-size: 25px;
+    }
+
+    .paragwhy{
+        font-size: 15px;
+    }
+
+    .englobecarte{
+        width: 80%;
+    }
+    .card{
+        margin: 0 20px 0 20px;
+        padding: 15px;
+    }
+    .iconcarte{
+        width: 25px;
+        height: 25px;
+        justify-content: start;
+    }
+
+    .imgcarte{
+        width: 25px;
+    }
+    .titrecarte{
+        font-size: 16px;
+        margin-bottom: -5px;
+    }
+    .paragcarte{
+        font-size: 12px;
+    }
+
+    .lienwhy{
+        font-size: 12px;
+    }
+
+    .contact{
+        font-size: 10px;
+    }
+    .advanced{
+        margin-bottom: 80px;
+    }
+
 }
