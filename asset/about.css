@@ -229,11 +229,11 @@ li {
     width: 75%;
 }
 
-.rowun{
+.rowun {
     display: flex;
 }
 
-.rowdeux{
+.rowdeux {
     display: flex;
 }
 
@@ -389,7 +389,7 @@ li {
 }
 
 .inputbtn {
-    border-color: red;
+    border-color: transparent;
     background-color: red;
     color: white;
     width: 25%;
@@ -431,7 +431,7 @@ li {
         padding-top: 0px;
     }
 
-    .btn{
+    .btn {
         padding-bottom: 20px;
     }
 
@@ -510,7 +510,7 @@ li {
         margin-bottom: 80px;
     }
 
-    .rowun{
+    .rowun {
         margin-left: auto;
     }
 
@@ -545,7 +545,7 @@ li {
         padding-top: 30px;
     }
 
-    .soustitre_tem{
+    .soustitre_tem {
         margin: 5px 50px 5px 50px;
     }
 
@@ -561,228 +561,228 @@ li {
 
     }
 
-    .descclient{
+    .descclient {
         font-size: 12px;
     }
 
-    .photoclient{
+    .photoclient {
         width: 60px;
     }
 
-    .clientnom{
+    .clientnom {
         font-size: 18px;
     }
 
-    .clientposte{
+    .clientposte {
         padding-top: 10px;
         font-size: 11px;
     }
 
-    .notesvg{
+    .notesvg {
         margin-top: -7px;
         width: 17px;
 
-        }
+    }
 
-    .temclient{
+    .temclient {
         font-size: 13px;
     }
 
-    .formulairenewsletter{
+    .formulairenewsletter {
         width: 95%;
     }
 
-    .inputmail{
+    .inputmail {
         margin-left: -50px;
         margin-right: 35px;
     }
 
-    .inputbtn{
+    .inputbtn {
         padding: 10px 15px 10px 15px;
     }
 }
 
-@media (max-width:375px){
-        .sectionun{
-            height: 440px;
-        }
+@media (max-width:375px) {
+    .sectionun {
+        height: 440px;
+    }
 
-        .titre_cyber{
-            font-size: 14px;
-        }
+    .titre_cyber {
+        font-size: 14px;
+    }
 
-        .cyber{
-            width: 80%;
-            padding-left: 15px;
-            padding-right: 5px;
-        }
+    .cyber {
+        width: 80%;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
 
-        .paragcyber{
-            font-size: 10px;
-        }
+    .paragcyber {
+        font-size: 10px;
+    }
 
-        li{
-            font-size: 9px;
-        }
+    li {
+        font-size: 9px;
+    }
 
-        ul{
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
+    ul {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 
-        .btn{
-            display: flex;
-            flex-direction: column;
-        }
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
 
-        .order{
-            margin-right: 40px;
-            text-align: center;
-            padding: 10px 5px 10px 5px;
-            margin-bottom: 5px;
-        }
+    .order {
+        margin-right: 40px;
+        text-align: center;
+        padding: 10px 5px 10px 5px;
+        margin-bottom: 5px;
+    }
 
-        .free{
-            margin-right: 40px;
-            margin-left: 0px;
-            text-align: center;
-            padding: 10px 5px 10px 5px;
-        }
+    .free {
+        margin-right: 40px;
+        margin-left: 0px;
+        text-align: center;
+        padding: 10px 5px 10px 5px;
+    }
 
-        .card {
-            margin: 0 5px 0 5px;
-            padding: 15px;
-        }
+    .card {
+        margin: 0 5px 0 5px;
+        padding: 15px;
+    }
 
-        .titrecarte {
-            font-size: 10px;
-        }
+    .titrecarte {
+        font-size: 10px;
+    }
 
-        .paragcarte {
-            font-size: 9px;
-        }
+    .paragcarte {
+        font-size: 9px;
+    }
 
-        .lienwhy {
-            font-size: 9px;
-        }
+    .lienwhy {
+        font-size: 9px;
+    }
 
-        .advanced {
-            width: 90%;
-            margin-bottom: 0px;
-        }
+    .advanced {
+        width: 90%;
+        margin-bottom: 0px;
+    }
 
-        .cyberright{
-            margin-left: 0px;
-            padding-top: 50px;
-        }
+    .cyberright {
+        margin-left: 0px;
+        padding-top: 50px;
+    }
 
-        .titre_cyber {
-            font-size: 12px;
-        }
+    .titre_cyber {
+        font-size: 12px;
+    }
 
-        .paragcyber {
-            font-size: 9px;
-        }
+    .paragcyber {
+        font-size: 9px;
+    }
 
-        .contact {
-            font-size: 9px;
-            padding: 10px 10px 10px 10px;
-        }
+    .contact {
+        font-size: 9px;
+        padding: 10px 10px 10px 10px;
+    }
 
-        .btn_adv {
-            margin-top: 20px;
-        }
+    .btn_adv {
+        margin-top: 20px;
+    }
 
-        .rowun {
-            flex-direction: column;
-            margin-right: -125px;
-        }
+    .rowun {
+        flex-direction: column;
+        margin-right: -125px;
+    }
 
-        .rowdeux {
-            flex-direction: column;
-        }
+    .rowdeux {
+        flex-direction: column;
+    }
 
-        .count {
-            font-size: 20px;
-        }
+    .count {
+        font-size: 20px;
+    }
 
-        .titre_carte_projet {
-            font-size: 16px;
-            margin-bottom: 0px;
-        }
+    .titre_carte_projet {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
 
-        .iconcarte {
-            width: 15px;
-            height: 15px;
-        }
+    .iconcarte {
+        width: 15px;
+        height: 15px;
+    }
 
-        .imgcarte {
-            margin-left: -5px;
-        }
+    .imgcarte {
+        margin-left: -5px;
+    }
 
-        .card_projet{
-            padding: 10px 16px 15px 10px;
-            margin-left: 75px;
-            margin-right: 120px;
-            margin-bottom: 10px;
-        }
+    .card_projet {
+        padding: 10px 16px 15px 10px;
+        margin-left: 75px;
+        margin-right: 120px;
+        margin-bottom: 10px;
+    }
 
-        .carte_projet {
-            width: 75%;
-            padding-top: 50px;
-        }
+    .carte_projet {
+        width: 75%;
+        padding-top: 50px;
+    }
 
-        .temoignage {
-            padding-top: 0px;
-            padding-bottom: 40px;
-        }
+    .temoignage {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
 
-        .titre_temoignage {
-            margin-top: 45px;
+    .titre_temoignage {
+        margin-top: 45px;
 
-        }
+    }
 
-        .carteclient {
-            flex-direction: column;
-            padding-top: 20px;
-        }
+    .carteclient {
+        flex-direction: column;
+        padding-top: 20px;
+    }
 
-        .clientdroit {
-            margin-right: 0px;
-            padding: 0px 15px 0px 15px;
-        }
+    .clientdroit {
+        margin-right: 0px;
+        padding: 0px 15px 0px 15px;
+    }
 
-        .clientgauche {
-            margin-left: 0px;
-            margin-top: 10px;
-        }
+    .clientgauche {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 
-        .toustem {
-            margin-top: 30px;
-        }
+    .toustem {
+        margin-top: 30px;
+    }
 
-        .newsletter{
-            padding: 5px 45px 20px 45px;
-        }
+    .newsletter {
+        padding: 5px 45px 20px 45px;
+    }
 
-        .titrenewsletter{
-            font-size: 15px;
-        }
+    .titrenewsletter {
+        font-size: 15px;
+    }
 
-        .paragnewsletter {
-            margin-bottom: 20px;
-            font-size: 10px;
-            text-align: justify;
-        }
+    .paragnewsletter {
+        margin-bottom: 20px;
+        font-size: 10px;
+        text-align: justify;
+    }
 
-        .inputmail{
-            font-size: 10px;
-            margin-left: -30px;
-            margin-right: -20px;
-        }
+    .inputmail {
+        font-size: 10px;
+        margin-left: -30px;
+        margin-right: -20px;
+    }
 
-        .inputbtn{
-            font-size: 10px;
-            padding: 5px 0px 5px 5px;
-        }
+    .inputbtn {
+        font-size: 10px;
+        padding: 5px 0px 5px 5px;
+    }
 }
