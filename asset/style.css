@@ -72,6 +72,67 @@ a {
     font-family: poppins;
 }
 
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.col {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+@media(max-width:545px) {
+    .col {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
 
 /**--------------NavBar-------------------**/
 
@@ -284,36 +345,40 @@ ul {
     list-style-type: none;
 }
 
+
 /** Footer **/
 
-footer{
+footer {
     background: no-repeat url("img/Fond_footer.jpeg");
     background-position: center;
     background-size: cover;
 }
 
-.sectionfooter{
+.sectionfooter {
     width: 65%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
 
-.colunfooter{
+.colunfooter {
     width: 40%;
     margin-right: 30px;
     padding: 30px 0px 30px 40px;
 }
 
-.coldeuxfooter{
+.coldeuxfooter {
     margin-right: 45px;
 }
 
-.coltroisfooter{
+.coltroisfooter {
     margin-right: 45px;
 }
 
-.insta, .fb, .twitter, .git{
+.insta,
+.fb,
+.twitter,
+.git {
     width: 20px;
 }
 
@@ -322,26 +387,28 @@ i.fa-solid.fa-caret-right {
     color: #aa2e26;
 }
 
-.svg{
+.svg {
     width: 20%;
 }
 
-.titrecol, .textcolun, .footerlastcol{
+.titrecol,
+.textcolun,
+.footerlastcol {
     color: #999;
 }
 
-.footerlastcol{
+.footerlastcol {
     font-size: 12px;
 }
 
-.spanred{
+.spanred {
     color: #aa2e26;
 }
 
-.listefooter{
+.listefooter {
     padding-inline-start: 0px;
 }
 
-.listecol{
+.listecol {
     font-size: 12px;
 }
