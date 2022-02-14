@@ -1,0 +1,16 @@
+.sectionalpha {
+    background: rgb(170, 46, 38);
+    background: -moz-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+    background: -webkit-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+    background: linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26", endColorstr="#202020", GradientType=1);
+    height: 600px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.arianered {
+    color: red;
+}
