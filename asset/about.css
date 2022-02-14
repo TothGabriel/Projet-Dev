@@ -231,13 +231,13 @@ li {
 
 .rowun {
     display: flex;
-    margin:auto;
+    margin: auto;
     margin-right: -5px;
 }
 
 .rowdeux {
     display: flex;
-    margin:auto;    
+    margin: auto;
     margin-left: -5px;
 }
 
@@ -404,6 +404,33 @@ li {
     font-size: 15px;
 }
 
+/** Footer **/
+
+.sectionfooter{
+    background-image: url(asset/img/fond_footer.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.colunfooter{
+    background-color: aqua;
+}
+
+.coldeuxfooter{
+    background-color: azure;
+}
+
+.coltroisfooter{
+    background-color: brown;
+}
+
+.colquatrefooter{
+    background-color: chartreuse;
+}
+
 /**Version mobile**/
 
 @media (max-width:768px) {
@@ -506,7 +533,7 @@ li {
         font-size: 12px;
     }
 
-    .imgadvanced{
+    .imgadvanced {
         width: 80%;
         padding-top: 40px;
     }
@@ -685,7 +712,7 @@ li {
         padding-top: 50px;
     }
 
-    .imgadvanced{
+    .imgadvanced {
         padding-top: 15px;
     }
 
