@@ -110,6 +110,15 @@ li {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: .3s;
+}
+
+.order:hover{
+    transition: .3s;
+    transform: translateY(-10px);
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
 }
 
 .free {
@@ -122,6 +131,16 @@ li {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: .3s;
+
+}
+
+.free:hover{
+    transition: .3s;
+    transform: translateY(-10px);
+    background-color: red;
+    color: white;
+    border: none;
 }
 
 .why {
@@ -140,6 +159,16 @@ li {
 .titrewhy {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.lienwhy{
+    transition: .3s;
+}
+
+.lienwhy:hover{
+    transition: .3s;  
+    transform: translateY(-10px);
+    color: red;
 }
 
 .englobecarte {
@@ -208,6 +237,12 @@ li {
     border: solid 1px white;
     border-radius: 5px;
     padding: 15px 10px 15px 10px;
+}
+
+.contact:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
 }
 
 
@@ -403,6 +438,14 @@ li {
     border-radius: 5px;
     font-family: Poppins;
     font-size: 15px;
+    transition: .3s;
+}
+
+.inputbtn:hover{
+    transition: .3s;
+    border: solid 1px red;
+    color: red;
+    background-color: transparent;
 }
 
 /**Version mobile**/
