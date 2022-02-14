@@ -27,6 +27,7 @@
 .paragabout {
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 .ariane {
@@ -406,6 +407,79 @@ li {
 
 /**Version mobile**/
 
+@media (max-width:1210px){
+    .carte_projet{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rowun, .rowdeux{
+        margin: 0 auto;
+    }
+
+    .card{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .englobecarte{
+        width: 100%;
+    }
+
+    .imgadvanced {
+        width: 80%;
+    }
+
+    .cyberright{
+        align-self:center;
+    }
+
+    .clientdroit{
+        margin-right:50px;
+    }
+
+    .clientgauche{
+        margin-left:50px;
+    }
+    .inputmail{
+        margin-left: -50px;
+        margin-right: 0px;
+    }
+
+    .inputbtn{
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (max-width:910px){
+    .carteclient{
+        flex-direction: column;
+    }
+
+    .clientgauche{
+        margin: 0 auto;
+    }
+
+    .clientdroit{
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+
+}
+
+@media (max-width:830px){
+    .formulairenewsletter{
+        width: 70%;
+    }
+
+    .inputmail{
+        margin-left: -55px;
+        margin-right: 25px;
+    }
+}
+
+
 @media (max-width:768px) {
     .sectionun {
         height: 400px;
@@ -565,7 +639,7 @@ li {
     }
 
     .clientdroit {
-        margin-right: -65px;
+        margin-right: 0px;
         padding: 0px 15px 0px 15px;
 
     }
@@ -708,11 +782,13 @@ li {
 
     .rowun {
         flex-direction: column;
-        margin-right: -125px;
+        margin: 0 auto;
     }
 
     .rowdeux {
         flex-direction: column;
+        
+        margin-left: -125px;
     }
 
     .count {
@@ -743,6 +819,7 @@ li {
     .carte_projet {
         width: 75%;
         padding-top: 50px;
+        flex-direction: row;
     }
 
     .temoignage {
