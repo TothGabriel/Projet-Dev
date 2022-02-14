@@ -406,8 +406,12 @@ li {
 
 /** Footer **/
 
+footer{
+    width: 80%;
+}
+
 .sectionfooter{
-    background-image: url(asset/img/fond_footer.jpeg);
+    background-image: url("asset/img/Fond_footer.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -429,6 +433,14 @@ li {
 
 .colquatrefooter{
     background-color: chartreuse;
+}
+
+.insta, .fb, .twitter, .git{
+    width: 20px;
+}
+
+i.fa-solid.fa-caret-right {
+    margin-right: 5px;
 }
 
 /**Version mobile**/
