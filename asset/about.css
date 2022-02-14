@@ -404,49 +404,6 @@ li {
     font-size: 15px;
 }
 
-/** Footer **/
-
-footer{
-    width: 80%;
-    margin: 0 auto;
-    background: no-repeat url("asset/img/Fond_footer.jpeg");
-    background-position: center;
-    background-size: cover;
-}
-
-.sectionfooter{
-    display: flex;
-    flex-direction: row;
-}
-
-.colunfooter{
-    background-color: aqua;
-    padding: 10px;
-}
-
-.coldeuxfooter{
-    background-color: azure;
-    padding: 10px;
-}
-
-.coltroisfooter{
-    background-color: brown;
-    padding: 10px;
-}
-
-.colquatrefooter{
-    background-color: chartreuse;
-    padding: 10px;    
-}
-
-.insta, .fb, .twitter, .git{
-    width: 20px;
-}
-
-i.fa-solid.fa-caret-right {
-    margin-right: 5px;
-}
-
 /**Version mobile**/
 
 @media (max-width:768px) {
