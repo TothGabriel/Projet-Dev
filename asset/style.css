@@ -262,6 +262,7 @@ nav#main-menu .menu-right {
 @media(max-width:545px) {
     #slide-menu .low-menu {
         display: flex;
+        width: 100%;
     }
     nav#main-menu .menu-right {
         display: none;
