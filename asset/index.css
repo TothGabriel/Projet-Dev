@@ -1,17 +1,12 @@
     .background-first-section {
         background: rgb(170, 46, 38);
-        background: -moz-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgba(0, 0, 0, 1) 41%);
-        background: -webkit-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgba(0, 0, 0, 1) 41%);
-        background: linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgba(0, 0, 0, 1) 41%);
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26", endColorstr="#000000", GradientType=1);
+        background: -moz-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+        background: -webkit-linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+        background: linear-gradient(150deg, rgba(170, 46, 38, 1) 0%, rgb(32, 32, 32) 41%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#aa2e26", endColorstr="#202020", GradientType=1);
     }
     
-    .container {
-        /* margin-left: 15px;
-    margin-right: 15px; */
-    }
-    /* .container-section-1 .col-1 {
-        width: 50%;
+    .container-section-1 .col-1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -19,29 +14,54 @@
     }
     
     .container-section-1 .col-2 {
-        width: 50%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        height: 100%;
     }
-    
-   
-    
-    @media(max-width:545px) {
-        .container-section-1 {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-        .container-section-1 .col-1 {
-            width: 100%;
-        }
-        .container-section-1 .col-2 {
-            width: 100%;
-        }
-    } */
     
     .container .col-2 img {
         width: 50%;
+    }
+    
+    section.partenaires .container img {
+        width: 90%;
+    }
+    
+    section.partenaires .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section.partenaires .logos-partenaires {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section.why .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section.cards-section .container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    section.cards-section .container .card {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    @media(max-width: 545px) {
+        section.cards-section .container {
+            flex-direction: column;
+        }
     }
