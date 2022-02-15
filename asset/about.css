@@ -113,7 +113,7 @@ li {
     transition: .3s;
 }
 
-.order:hover{
+.order:hover {
     transition: .3s;
     transform: translateY(-10px);
     background-color: transparent;
@@ -135,7 +135,7 @@ li {
 
 }
 
-.free:hover{
+.free:hover {
     transition: .3s;
     transform: translateY(-10px);
     background-color: red;
@@ -161,12 +161,12 @@ li {
     margin-bottom: 20px;
 }
 
-.lienwhy{
+.lienwhy {
     transition: .3s;
 }
 
-.lienwhy:hover{
-    transition: .3s;  
+.lienwhy:hover {
+    transition: .3s;
     transform: translateY(-10px);
     color: red;
 }
@@ -239,42 +239,92 @@ li {
     padding: 15px 10px 15px 10px;
 }
 
-.contact:hover{
+.contact:hover {
     background-color: white;
     color: black;
     transition: .3s;
 }
 
-
-.carte_projet {
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-    width: auto;
+.cartedeprojet {
+    padding-top: 50px;
     margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "Projets-effectue Clients-proteges Garantie-des-services Equipes-dexperts";
+  }
+  
+  .Projets-effectue {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+    grid-area: Projets-effectue;
+  }
+  
+  .Clients-proteges {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+    grid-area: Clients-proteges;
+  }
+  
+  .Garantie-des-services {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+    grid-area: Garantie-des-services;
+  }
+  
+  .Equipes-dexperts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #191919;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+    grid-area: Equipes-dexperts;
+  }
 
 .card_projet {
-    background-color: rgb(25, 25, 25);
+    background-color: #191919;
     padding: 30px 50px 30px 50px;
     margin-left: 30px;
     margin-right: 50px;
     border-radius: 15px;
     width: 75%;
-}
-
-.rowun {
-    display: flex;
-    margin: auto;
-    margin-right: -5px;
-}
-
-.rowdeux {
-    display: flex;
-    margin: auto;
-    margin-left: -5px;
 }
 
 
@@ -443,7 +493,7 @@ li {
     transition: .3s;
 }
 
-.inputbtn:hover{
+.inputbtn:hover {
     transition: .3s;
     border: solid 1px red;
     color: red;
@@ -452,51 +502,43 @@ li {
 
 /** responsive **/
 
-@media (max-width:1768px){
-    .inputmail{
+@media (max-width:1768px) {
+    .inputmail {
         margin-right: 170px;
     }
 }
 
-@media (max-width:1725px){
-    .inputmail{
+@media (max-width:1725px) {
+    .inputmail {
         margin-right: 135px;
     }
 }
 
-@media (max-width:1455px){
-    .inputmail{
+@media (max-width:1455px) {
+    .inputmail {
         margin-right: 100px;
     }
 }
 
-@media (max-width:1282px){
-    .inputmail{
+@media (max-width:1282px) {
+    .inputmail {
         margin-right: 70px;
     }
 
-    .inputbtn{
+    .inputbtn {
         padding: 10px 5px 10px 5px;
     }
 
 }
 
-@media (max-width:1210px){
-    .carte_projet{
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width:1210px) {
 
-    .rowun, .rowdeux{
-        margin: 0 auto;
-    }
-
-    .card{
+    .card {
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .englobecarte{
+    .englobecarte {
         width: 100%;
     }
 
@@ -504,28 +546,39 @@ li {
         width: 80%;
     }
 
-    .cyberright{
-        align-self:center;
+    .cyberright {
+        align-self: center;
     }
 
-    .clientdroit{
-        margin-right:50px;
+    .cartedeprojet {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "Projets-effectue Clients-proteges"
+          "Garantie-des-services Equipes-dexperts"; 
+      }
+
+    .clientdroit {
+        margin-right: 50px;
     }
 
-    .clientgauche{
-        margin-left:50px;
+    .clientgauche {
+        margin-left: 50px;
     }
-    .inputmail{
+
+    .inputmail {
         margin-left: 0px;
         margin-right: 50px;
     }
 
-    .inputbtn{
+    .inputbtn {
         padding: 10px 10px 10px 10px;
     }
 }
 
-@media (max-width:1042px){
+@media (max-width:1042px) {
     .inputmail {
         margin-left: 0px;
         margin-right: 15px;
@@ -536,23 +589,23 @@ li {
     }
 }
 
-@media (max-width:949px){
+@media (max-width:949px) {
     .inputmail {
         margin-left: 0px;
         margin-right: -15px;
     }
 }
 
-@media (max-width:910px){
-    .carteclient{
+@media (max-width:910px) {
+    .carteclient {
         flex-direction: column;
     }
 
-    .clientgauche{
+    .clientgauche {
         margin: 0 auto;
     }
 
-    .clientdroit{
+    .clientdroit {
         margin: 0 auto;
         margin-bottom: 25px;
     }
@@ -560,8 +613,8 @@ li {
 
 }
 
-@media (max-width:840px){
-    .formnewsletter{
+@media (max-width:840px) {
+    .formnewsletter {
         width: 80%;
         flex-direction: column;
         align-items: center;
@@ -569,12 +622,12 @@ li {
     }
 }
 
-@media (max-width:830px){
-    .formulairenewsletter{
+@media (max-width:830px) {
+    .formulairenewsletter {
         width: 70%;
     }
 
-    .inputmail{
+    .inputmail {
         margin-left: -55px;
         margin-right: 25px;
     }
@@ -694,10 +747,6 @@ li {
         margin-bottom: 80px;
     }
 
-    .rowun {
-        margin-left: auto;
-    }
-
     .card_projet {
         width: 40%;
         align-content: center;
@@ -709,11 +758,6 @@ li {
 
     .count {
         font-size: 25px;
-    }
-
-    .carte_projet {
-        width: 95%;
-        justify-content: center;
     }
 
     .titre_carte_projet {
@@ -772,7 +816,7 @@ li {
         font-size: 13px;
     }
 
-    .formnewsletter{
+    .formnewsletter {
         flex-direction: row;
     }
 
@@ -790,46 +834,63 @@ li {
     }
 }
 
-@media (max-width:709px){
-    .btn{
+@media (max-width:709px) {
+    .btn {
         width: 50%;
         flex-direction: column;
     }
 
-    .order{
-    padding-right: 23px;
-    width: 60px;
-    height: 18px;
-    padding-left: 17px;
+    .order {
+        padding-right: 23px;
+        width: 60px;
+        height: 18px;
+        padding-left: 17px;
     }
 
-    .free{
+    .free {
         margin-left: 0px;
     }
 }
 
-@media (max-width:490px){
-    .englobecarte{
-        flex-direction:column;
-    } 
+@media (max-width:580px){
+    .cartedeprojet {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "Projets-effectue"
+          "Clients-proteges"
+          "Garantie-des-services"
+          "Equipes-dexperts"; 
+      }
+  }
+
+@media (max-width:490px) {
+    .englobecarte {
+        flex-direction: column;
+    }
+
     .card {
         margin: 5px 15px 5px 15px;
         padding: 15px;
-    }   
+    }
 }
 
-@media (max-width:488px){
-    .global{
+@media (max-width:488px) {
+    .global {
         padding-top: 20px;
     }
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
     .inputmail {
         margin-left: 0px;
         margin-right: -20px;
         font-size: 13px;
     }
+
     .inputbtn {
         padding: 10px 75px 10px 10px;
         font-size: 13px;
@@ -954,18 +1015,6 @@ li {
         margin-left: 75px;
         margin-right: 120px;
         margin-bottom: 10px;
-    }
-
-    .carte_projet {
-        width: 60%;
-        padding-top: 50px;
-        flex-direction: row;
-    }
-
-    .rowun {
-        flex-direction: column;
-        width: 75%;
-        align-items: start;
     }
 
     .rowdeux {
