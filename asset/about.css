@@ -818,6 +818,12 @@ li {
     }   
 }
 
+@media (max-width:488px){
+    .global{
+        padding-top: 20px;
+    }
+}
+
 @media (max-width:450px){
     .inputmail {
         margin-left: 0px;
@@ -958,13 +964,13 @@ li {
 
     .rowun {
         flex-direction: column;
-        width: 90%;
+        width: 75%;
         align-items: start;
     }
 
     .rowdeux {
         flex-direction: column;
-        width: 90%;
+        width: 75%;
         margin-left: 0px;
         align-items: center;
     }
