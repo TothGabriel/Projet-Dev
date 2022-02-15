@@ -369,6 +369,10 @@
         justify-content: center;
     }
     
+    .slot-1 .svg-logo-footer {
+        max-width: 150px;
+    }
+    
     .slot-2 {
         grid-area: slot-2;
     }
@@ -379,6 +383,26 @@
     
     .slot-4 {
         grid-area: slot-4;
+    }
+    
+    @media(max-width:1020px) {
+        .footer-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 0px 0px;
+            grid-template-areas: "slot-1 slot-1 slot-1" "slot-2 slot-3 slot-4";
+        }
+    }
+    
+    @media(max-width:540px) {
+        .footer-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-template-areas: "slot-1" "slot-2" "slot-3" "slot-4";
+        }
     }
     /* .sectionfooter {
         width: 65%;
