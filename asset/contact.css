@@ -119,6 +119,10 @@ li {
     margin-bottom: 35px;
 }
 
+.paraginfo:hover {
+    color: white;
+}
+
 .icon {
     width: 60px;
     height: 60px;
@@ -223,7 +227,7 @@ textarea {
 .maps {
     display: flex;
     justify-content: center;
-    width: 78%;
+    width: 77%;
     margin: 0 auto;
 }
 
