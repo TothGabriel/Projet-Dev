@@ -363,6 +363,8 @@
     }
     
     .slot-1 {
+        margin-left: 20px;
+        margin-right: 10px;
         grid-area: slot-1;
         display: flex;
         flex-direction: column;
@@ -410,6 +412,7 @@
     .twitter,
     .git {
         width: 20px;
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(106deg) brightness(102%) contrast(102%);
     }
     
     i.fa-solid.fa-caret-right {
