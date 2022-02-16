@@ -404,26 +404,6 @@
             grid-template-areas: "slot-1" "slot-2" "slot-3" "slot-4";
         }
     }
-    /* .sectionfooter {
-        width: 65%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .colunfooter {
-        width: 40%;
-        margin-right: 30px;
-        padding: 30px 0px 30px 40px;
-    }
-    
-    .coldeuxfooter {
-        margin-right: 45px;
-    }
-    
-    .coltroisfooter {
-        margin-right: 45px;
-    } */
     
     .insta,
     .fb,
@@ -457,8 +437,20 @@
     
     .listefooter {
         padding-inline-start: 0px;
+        color: #999;
+    }
+
+    .lienfooter{
+        color: #999;
+        transition: .3s;
+    }
+
+    .lienfooter:hover{
+        color: #aa2e26;
+        transition: .3s;
     }
     
     .listecol {
         font-size: 12px;
+        color: #999;
     }
