@@ -121,6 +121,7 @@ li {
 
 .paraginfo:hover {
     color: white;
+    transition: .3s;
 }
 
 .icon {
